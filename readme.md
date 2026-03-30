@@ -104,10 +104,26 @@ Open it in Wireshark to follow along with analysis.
 
 When opening a capture, start with quick reconnaissance:
 
-1. Check total capture size and packet count.
-2. Review start and end timestamps.
-3. Identify top protocols in use.
-4. Identify key IP addresses and active ports.
+1. Check total capture size and packet count from "Capture File Properties" window as showin in the image
+Menu > Statistics > Capture File Properties
+ /capture_properties.png 
+
+2. Identify top protocols in use.
+Menu > Statistics > Protocol Hierarchy 
+
+3. Top Conversations (You can do this in Step 4 with more precision by filtering)
+Menu → Statistics → Conversations
+
+
+4. Apply filters to  dig up important, conversations, ports and protocols.
+Menu → Statistics → Conversations → IPv4 tab
+
+Report:
+
+Top 3 IPs by packet count
+Which one is 192.168.1.111?
+How many packets is it generating?
+
 5. Review conversation statistics to find the most important hosts and flows.
 
 From there, you can pivot into protocol-specific investigation (HTTP, DNS, TLS, TCP streams, and so on).
