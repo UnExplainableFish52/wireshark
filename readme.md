@@ -1,8 +1,8 @@
-# Wireshark Job-Ready Guide
+# Wireshark & pcap analysis mastery
 
-This repository is a job-ready walkthrough for mastering Wireshark through hands-on packet analysis.
+Master Wireshark through hands-on packet analysis. The goal is simple: build practical, industry-relevant packet analysis skills that makes you feel very comfortable with pcap files and wireshark tool itself.
 
-The goal is simple: build practical, industry-relevant packet analysis skills that map directly to real security and network roles.
+so without any delay, lets build the foundation!
 
 ## What is Wireshark?
 
